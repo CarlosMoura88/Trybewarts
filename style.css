@@ -1,12 +1,23 @@
 .header {
-  background-color: rgb(50, 167,145);
-  display: flex;
-  justify-content: space-between;  
+  background-color:rgb(50,167,145);
+  display:flex;
+  justify-content:space-between;
+}
+
+#trybewarts-header-title {
+  margin-left: 200px;
 }
 
 .trybewarts-login {
-  display: flex;  
+  display: flex; 
   align-items: center;
+  margin-right: 10px;
+}
+
+button {
+  background-color:purple;
+  color:white;
+  border-radius:10px;
 }
 
 #trybewarts-header-title{
@@ -39,16 +50,19 @@ hr {
 
 #label-family {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+}
+
+.nome-sobrenome {
+  padding: 10px;
+  display: flex;
+  justify-content: start;
 }
 
 .email-casa {
   display: flex;
-  flex-direction: row;
-}
-
-.meio-form {
-  display: flex;  
+  justify-content: start;
+  padding: 10px;
 }
 
 .div-label-content{
@@ -65,3 +79,13 @@ section {
   display: flex;
 }
 
+textarea {
+  resize: none;
+}
+
+footer {
+  color: white;
+  background-color: rgb(50,167,145);
+  text-align: center;
+  margin-bottom: 0px;
+}

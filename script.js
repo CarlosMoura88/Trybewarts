@@ -1,5 +1,5 @@
 const login = document.getElementById('botao-login');
-const inputEmail = document.getElementById('input-email');
+const inputEmail = document.getElementById('email');
 const inputSenha = document.getElementById('input-senha');
 const concordancia = document.getElementById('agreement');
 const botaoEnviar = document.getElementById('submit-btn');

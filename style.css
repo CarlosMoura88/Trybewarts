@@ -41,3 +41,25 @@ hr {
   display: flex;
   flex-direction: column;  
 }
+
+.email-casa {
+  display: flex;
+}
+
+.meio-form {
+  display: flex;  
+}
+
+.div-label-content{
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-label-rate {
+  display: flex;
+}

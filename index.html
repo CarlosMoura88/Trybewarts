@@ -23,17 +23,11 @@
   <main>
     <form action="" method="GET" id="evaluation-form">
         <div class="nome-sobrenome">
-          <label for="nome">Nome:
-            <input type="text" id="input-name" placeholder="Nome" name="nome">
-          </label>
-          <label for="sobrenome">Sobrenome:
-            <input type="text" id="input-lastname" placeholder="Sobrenome" name="sobrenome">
-          </label>
+          <input type="text" id="input-name" placeholder="Nome" name="nome">
+          <input type="text" id="input-lastname" placeholder="Sobrenome" name="sobrenome"> 
         </div>
-        <div class="email-casa">
-          <label for="input-email">E-mail:
-            <input type="text" id="input-email" placeholder="Email" name="email">
-          </label>
+        <div class="email-casa">          
+          <input type="text" id="input-email" placeholder="Email" name="email">          
           <label for="house">Casa:
             <select name="houses" id="house">
                 <option value="">Selecione sua casa</option>
@@ -96,7 +90,8 @@
         </div>
         <br>
           <label for="comentario" class="textarea">Deixe seu comentário:</label>
-          <textarea name="comentario" id="comentario" cols="30" rows="10" maxlength="500"></textarea>
+          <textarea name="comentario" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+          <p id="counter">Caracteres restantes: 500</p>
         <br>
 
         <label for="" id="label-infos">Você concorda com o uso das informações acima?
